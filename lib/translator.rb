@@ -2,11 +2,12 @@
 
 def load_library(file_path)
 
+  emoticon = {}
 #return value is a hash {}
 # return value has two keys that point to inner hashes
 #{"get_meaning"=> {japanese_emoticon => meaning}, "get_emoticon" => {english_emoticon => japanese_equivalent}}
 
-p {}
+  p emoticon
 
 end
 
