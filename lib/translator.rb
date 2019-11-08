@@ -28,11 +28,9 @@ def get_japanese_emoticon (file_path, emoticon)
   if output #if the output exists in the directory is true
 
    output # returns the output
-
-  if file_path.find  {|emoticon|}
-    p file_path.include?emoticon)
-  else
-    "Sorry, that emoticon was not found"
+  else 
+    
+    p "Sorry, that emoticon was not found"
   end
 
 
