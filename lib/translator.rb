@@ -14,7 +14,6 @@ def load_library(file_path)
     emoticon["get_emoticon"][eng] = jpn #makes the english emoticon point to japanese equivalent
   end
 
-  
   emoticon
 
 end
