@@ -14,7 +14,7 @@ def load_library(file_path)
     emoticon["get_emoticon"][eng] = jpn
   end
 
-  #for each emoticon in the file path 
+  #for each emoticon in the file path
 
   p emoticon
 
