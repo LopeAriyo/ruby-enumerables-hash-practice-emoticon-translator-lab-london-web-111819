@@ -14,7 +14,7 @@ def load_library(file_path)
   end
 
   #for each emoticon in the file path 
-  
+
   p emoticon
 
 end
