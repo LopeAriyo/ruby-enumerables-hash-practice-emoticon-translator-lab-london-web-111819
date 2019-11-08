@@ -28,8 +28,8 @@ def get_japanese_emoticon (file_path, emoticon)
   if output #if the output exists in the directory is true
 
    output # returns the output
-  else 
-    
+  else
+
     p "Sorry, that emoticon was not found"
   end
 
