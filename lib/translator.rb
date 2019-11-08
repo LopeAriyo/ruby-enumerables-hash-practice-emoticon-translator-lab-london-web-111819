@@ -7,6 +7,12 @@ def load_library(file_path)
 # return value has two keys that point to inner hashes
 #{"get_meaning"=> {japanese_emoticon => meaning}, "get_emoticon" => {english_emoticon => japanese_equivalent}}
 
+  YAML.load_file(path).each do |meaning, describe|
+    eng, jpn = describe
+    emoticon["get_meaning"][jpn] = meaning
+    emoticon["get_emoticon"][eng] = jpn
+  end
+  
   p emoticon
 
 end
